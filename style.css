@@ -1,0 +1,60 @@
+body
+{
+    background-image: url(webb.png);
+    font-size: 20px;
+}
+#container
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 300px;
+    background-color: white;
+    padding: 50px;
+    box-shadow: 3px 3px 30px 5px #cccccccf;
+}
+input
+{
+    width: 300px;
+    background-color: #efefef;
+    color: #666;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+input[type=text]:focus, input[type=password]:focus
+{
+    box-shadow: 0px 0px 10px 0.5px #cccccccf;
+    border: 2px solid #a5cda5;
+    background-color:#e9f3e9;
+    color: green;
+}
+
+input[type=submit]
+{
+    background-color: #36b03c;
+    font-size:20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type=submit]:focus 
+{
+    background-color: green;
+    box-shadow: 0px 0px 15px 5px #cccccccf;
+}
+
+input::-webkit-input-placeholder
+{
+    color: #999;
+}
+input:focus::-webkit-input-placeholder
+{
+    color: #428c42
+}
